@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>formulario</h1>
+    <h3>formulario com get</h3>
+   <input type="text" name="q" id="q">
+   <input type="submit" value="enviar">
+
+   <h3>formulario com post</h3>
+   <input type="text" name="q" id="q">
+   <input type="submit" value="enviar">
+
+   <h3>formualrio de loguin do facebook</h3>
+   <form action="index.html" method="get" enctype="multipart/form-data">
+   <input type="text" name="nome" id="nome" placeholder="nome" required>
+   <input type="text" name="sobenome" id="sobrenome" placeholder="sobrenome" required>
+   <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="celular ou email" required>
+   <input type="password" name="senha" id="senha" placeholder="digite sua senha" required>
+    
+
+   <br><label >data de nascimento</label>
+   <select name="dia" id="dia">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+   </select>
+   <select name="mês" id="mês">
+    <option value="jan">jan</option>
+    <option value="fev">fev</option>
+    <option value="mar">mar</option>
+    <option value="mai">abr</option>
+   </select>
+   <select name="ano" id="ano">
+    <option value="2000">2000</option>
+    <option value="2001">2001</option>
+    <option value="2002">2002</option>
+    <option value="2003">2003</option>
+   </select>
+   
+   <br><label>gênero</label><br>
+   <label for="masculino">masculino</label>
+   <input type="radio" name="gênero" id="masculino">
+
+   <label for="feminino">feminino</label>
+    <input type="radio" name="feminino" id="feminino">
+   
+   <label for="personalizado">personalizado</label>
+   <input type="radio" name="gênero" id="personalizado">
+   <br><input type="file" name="" id="">
+   <input type="submit" value="enviar">
+    </form>
+
+
+
+</body>
+</html>
